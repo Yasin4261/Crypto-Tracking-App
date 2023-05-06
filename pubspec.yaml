@@ -14,7 +14,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  status_bar_control: ^3.2.1
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
