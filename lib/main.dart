@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'view/login_screen.dart';
+import 'view/home_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +11,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Blink Crypto',
       theme: ThemeData(
-        appBarTheme: const AppBarTheme(backgroundColor: Colors.white),
+        primaryColor: Colors.white,
+        appBarTheme: const AppBarTheme(
+          elevation: 0.0,
+            iconTheme: IconThemeData(color: Colors.blueGrey),
+            foregroundColor: Colors.blueGrey,
+            backgroundColor: Colors.white),
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: HomePage(),
     );
   }
 }
