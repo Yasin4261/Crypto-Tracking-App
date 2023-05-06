@@ -1,6 +1,6 @@
 # log_in
 
-I developing user signin and log in mobile app with flutter.
+I developing crypto tracking mobile app with flutter.
 
 ## Getting Started
 
